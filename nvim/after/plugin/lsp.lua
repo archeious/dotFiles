@@ -4,7 +4,7 @@ lsp.preset('recommend')
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-	-- Replace the language servers listed here 
+	-- Replace the language servers listed here
 	-- with the ones you want to install
 	ensure_installed = {'ansiblels','bashls','dockerls','golangci_lint_ls','helm_ls','html','marksman','pylsp','sqlls','rust_analyzer','terraformls','yamlls'},
 	handlers = {
