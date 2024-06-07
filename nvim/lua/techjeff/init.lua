@@ -16,7 +16,7 @@ vim.g.maplocalleader = ' '
 
 
 require('lazy').setup({
-  'mbbill/undotree',  
+  'mbbill/undotree',
   'tpope/vim-fugitive',
   'xero/miasma.nvim',
   {
