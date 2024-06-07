@@ -72,6 +72,14 @@ plugins=(git kubectl kubectx rsync terraform tmux )
 
 source $ZSH/oh-my-zsh.sh
 
+# Remapping aliases
+unalias vim
+alias ov=$(which vim)
+alias vim="nvim"
+alias vi="nvim"
+alias nv="nvim"
+alias v="nvim"
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
