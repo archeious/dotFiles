@@ -1,3 +1,6 @@
+# Access ArgoCD via portwarding
+export ARGOCD_OPTS='--port-forward-namespace argocd'
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$PATH:/$HOME/.rvm/bin
@@ -73,7 +76,6 @@ plugins=(git kubectl kubectx rsync terraform tmux )
 source $ZSH/oh-my-zsh.sh
 
 # Remapping aliases
-unalias vim
 alias ov=$(which vim)
 alias vim="nvim"
 alias vi="nvim"
@@ -105,3 +107,5 @@ alias v="nvim"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+fastfetch
